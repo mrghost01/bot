@@ -260,23 +260,182 @@ function create_config( )
     "ToPhoto_Txt_img",
     "Gps",
     "ToSticker(Text_to_stick)",
-    "Block",
+    "aazaan",
+    "boton",
+    "expiretime",
+    "kickall",
+    "love",
+    "time",
     "InGroups",
     },
-    sudo_users = {56693692,},--Sudo users
+    sudo_users = {205962272,},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[
-]],
+    about_text = 
+    For more information, check out our channel:
+[@gpfmod] 
     help_text_realm = [[
 
 ]],
-    help_text = [[ 
+    help_text =
+    Welcome to Ghost Pful antispam!
 
-]],
-	help_text_super =[[
+For more information, check out our channel:
+[@gpfmod] 
 
+Use #superhelp command to show bot commands!!
 
-]],
+	help_text_super =
+	راهنمای بات ضد اسپم بلک
+درصورت ابهام میتونید با دستور /support لینک گروه پشتیبانی را دریافت کنید و  مشکلتون رو مطرح کنید! 
+
+➖➖➖➖➖➖
+#ban @username
+اخراج کردن یک فرد از گروه به صورت دائمی
+#unban @username
+خارج کردن یک فرد از حالت اخراج دائمی!
+#banlist
+لیست افراد بن شده.
+➖➖➖➖➖➖
+#info
+نمایش اطلاعات اصلی گروه
+➖➖➖➖➖➖
+#del [reply|number]
+پاک کردن تعداد پیام های مورد نظر با ریپلی و تعداد!
+➖➖➖➖➖➖
+#topstats
+نشان دادن ۳ نفر از فعال ترین اعضای گروه!
+➖➖➖➖➖➖
+#admins
+نمایش لیست ادمین های گروه
+➖➖➖➖➖➖
+#filter [word]
+فیلتر کردن یک کلمه
+#remword [word]
+حذف کردن کلمه از لیست فیلتر کلمات
+#filterlist
+نشان دادن کلمه های فیلتر شده.
+➖➖➖➖➖➖
+#owner
+نمایش آیدی خریدار گروه.
+➖➖➖➖➖➖
+#modlist
+نمایش لیست ناظم ها.
+➖➖➖➖➖➖
+#bots
+لیست روبات های گروه.
+➖➖➖➖➖➖
+#who
+لیست اعضای گروه در یک فایل متنی.
+(.txt)
+➖➖➖➖➖➖
+#kick [reply|id]
+بلاک کردن و کیک کردن فرد از گروه.
+➖➖➖➖➖➖
+#setwlc [your text]
+تنظیم یک متن به عنوان متن خوشامد گویی
+➖➖➖➖➖➖
+#setwlc rules [your text]
+تنظیم کردن یک متن به عنوان پلام خوشامد گویی + قوانین گروه.
+➖➖➖➖➖➖
+#delwlc
+حذف پیام خوشامد گویی.
+➖➖➖➖➖➖
+#id
+نمایش اطلاعات اکانت شما .
+➖➖➖➖➖➖
+#weather [اسم شهر]
+دریافت اطلاعات آب و هوای یک منطقه
+➖➖➖➖➖➖
+#aparat [کلمه] 
+جستوجو در آپارات!
+➖➖➖➖➖➖
+#me
+نمایش تعداد پیام های ارسال شده از شما
+➖➖➖➖➖➖
+#qr [کلمه]
+تبدیل کلمه،لینک،... شما به بارکد
+➖➖➖➖➖➖
+#insta [id, Post Link]
+دریافت اطلاعات ایدی و ... از اینستاگرام!
+➖➖➖➖➖➖
+#write [text]
+طراحیلمه مورد تظر با 17 فونت!
+➖➖➖➖➖➖
+#calc [2*2]
+محاسبه جمع تفریق ضرب و...
+➖➖➖➖➖➖
+#porn [text]
+جستجو در 7 سایت +
+➖➖➖➖➖➖
+#time
+دریافت زمان دقیق!
+➖➖➖➖➖➖
+#support 
+دریافت لینک گروه پشتیبانی!
+➖➖➖➖➖➖
+#setowner [reply, username]
+ست کردن کاربر به عنوان خریدار گروه
+#promote [username|id]
+ارتقاء مقام کاربر به ناظم گروه
+#demote [username|id]
+خلع مقام کردن کاربر از سمت ناظم ها
+➖➖➖➖➖➖
+#setname [text]
+تغییر اسم گروه
+#setphoto
+جایگزین کردن عکس گروه
+#setrules [text]
+گذاشتن قوانین برای گروه
+#setabout [text]
+گذاشتن متن توضیحات برای سوپر گروه(این متن در بخش توضیحات گروه هم نمایش داده میشه)
+➖➖➖➖➖➖
+#newlink
+ساختن لینک جدید
+#link
+گرفتن لینک
+#linkpv
+ارسال لینک گروه در پیوی شما!
+➖➖➖➖➖➖
+#rules
+نمایش قوانین
+➖➖➖➖➖➖
+#lock [links|flood|spam|Arabic|member|rtl|sticker|TgService|contacts|forward|badword|emoji|english|tag|webpage|strict]
+قفل کردن لینک گروها-اسپم-متن و اسم های بزرگ -زبان فارسی-تعداد اعضا-کاراکتر های غیر عادی-استیکر-مخاطبین-فروارد-فوش-اموجی-انگلیسی-تگ-لینک سایت
+
+دقت کنید اگر گذینه اخری strict روشن باشد کاربر از گروه کیک میشود و پیغام پاک میشه در غیر این صورت فقط پیغام پاک میشود
+➖➖➖➖➖➖
+#unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|TgService|strict|forward|badword|emoji|english]
+باز کردن قفل امکانات بالا
+➖➖➖➖➖➖
+#mute [all|audio|gifs|photo|video|text]
+پاک کردن سریع همه پیغام ها-عکس ها-گیف ها-صدا های ضبط شده-فیلم-متن
+➖➖➖➖➖➖
+#unmute [all|audio|gifs|photo|video|text]
+باز کردن قفل امکانات بالا
+➖➖➖➖➖➖
+#setflood [value]
+گذاشتن value به عنوان حساسیت اسپم
+➖➖➖➖➖➖
+#settings
+نمایش تنظیمات گروه
+➖➖➖➖➖➖
+#muteslist
+نمایش نوع پیغام های سایلنت شده
+*A "muted" message type is auto-deleted if posted
+➖➖➖➖➖➖
+#muteuser [username]
+سایلنت کردن یک کاربر خاص در گروه
+فقط خریدار (owner) میتونه کسیو سایلنت کنه ولی ناظم ها (Mods) میتونند فرد را از سایلنتی در بیاورند
+➖➖➖➖➖➖
+#mutelist
+نمایش لیست افراد سایلنت شده
+➖➖➖➖➖➖
+#clean [rules|about|modlist|mutelist|bots]
+پاک کردن لیست ناظم ها-درباره-لیست سایلنت شده ها-قوانین-بات ها
+➖➖➖➖➖➖
+#log
+برگرداندن تاریخچه گروه در یک فایل متنی
+➖➖➖➖➖➖
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')

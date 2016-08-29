@@ -260,32 +260,24 @@ function create_config( )
     "ToPhoto_Txt_img",
     "Gps",
     "ToSticker(Text_to_stick)",
-    "aazaan",
-    "boton",
-    "expiretime",
-    "kickall",
-    "love",
-    "time",
+    "Block",
     "InGroups",
     },
     sudo_users = {205962272,},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
+]],
+    help_text_realm = [[
     For more information, check out our channel:
 [@gpfmod] 
-]]
-    help_text_realm = [[
-
 ]],
-    help_text = [[
-    Welcome to Ghost Pful antispam!
+    help_text = [[ 
 For more information, check out our channel:
 [@gpfmod] 
 Use #superhelp command to show bot commands!!
 ]],
-	help_text_super = [[
-	راهنمای بات ضد اسپم بلک
-درصورت ابهام میتونید با دستور /support لینک گروه پشتیبانی را دریافت کنید و  مشکلتون رو مطرح کنید! 
+	help_text_super =[[
+راهنمای بات ضد اسپم ghost
 ➖➖➖➖➖➖
 #ban @username
 اخراج کردن یک فرد از گروه به صورت دائمی
@@ -434,6 +426,7 @@ Use #superhelp command to show bot commands!!
 #log
 برگرداندن تاریخچه گروه در یک فایل متنی
 ➖➖➖➖➖➖
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')

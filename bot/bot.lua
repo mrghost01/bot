@@ -261,6 +261,11 @@ function create_config( )
     "Gps",
     "ToSticker(Text_to_stick)",
     "Block",
+    "time",
+    "kickall",
+    "love",
+    "expiretime",
+    "aazaan",
     "InGroups",
     },
     sudo_users = {205962272,},--Sudo users

@@ -267,7 +267,7 @@ function create_config( )
     "InGroups",
     "dler"
     },
-    sudo_users = {205962272,153898443,243286706},--Sudo users
+    sudo_users = {205962272,153898443},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 ]],

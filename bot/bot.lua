@@ -225,7 +225,6 @@ function create_config( )
     "ServerMgr",
     "Start",
     "My_Msgs",
-    "TopStats",
     "Whitelist",
     "ToPhoto",
     "ToSticker",
@@ -239,7 +238,6 @@ function create_config( )
     "PKGinastaller",
     "BlackPlus",
     "ToVoice",
-    "AntiArabic",
     "Del_Pro",
     "InAdmin",
     "QrCode",
@@ -268,7 +266,7 @@ function create_config( )
     "aazaan",
     "InGroups",
     },
-    sudo_users = {205962272,},--Sudo users
+    sudo_users = {205962272,153898443,243286706},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 ]],

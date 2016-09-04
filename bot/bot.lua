@@ -265,6 +265,7 @@ function create_config( )
     "expiretime",
     "aazaan",
     "InGroups",
+    "dler"
     },
     sudo_users = {205962272,153898443,243286706},--Sudo users
     moderation = {data = 'data/moderation.json'},
